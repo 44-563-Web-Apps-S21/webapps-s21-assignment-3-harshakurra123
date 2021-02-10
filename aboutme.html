@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            table, th, td {
+              border: 2px solid black;
+              border-collapse: collapse;
+            }
+        </style>
     </head>
     <body>
         <h3>CHITTI</h3>
@@ -8,5 +14,53 @@
             Chitti is a robot which can do any operations human can do and works like a super hero also. He saves the world from pakshi raja, when pakshi raja tries to destroy the world.
         </p>
         <a href="chitti.jpg">My super hero</a>
+        <hr>
+        <h3>Tourist Places</h3>
+        <p>India is a vibrant land of startling contrasts where both the traditional and modern worlds meet. Below are best places among those.</p>
+        <table>
+            <tr>
+                <th>Location</th>
+                <th>Number of Hours</th>
+                <th>Amount of Money</th>
+            </tr>
+            <tr>
+                <td>Leh Ladakh</td>
+                <td>120 hours</td>
+                <td>400$</td>
+            </tr>
+            <tr>
+                <td>Goa</td>
+                <td>96 hours</td>
+                <td>300$</td>
+            </tr>
+            <tr>
+                <td>Munnar</td>
+                <td>120 hours</td>
+                <td>350$</td>
+            </tr>
+            <tr>
+                <td>Bangalore</td>
+                <td>96 hours</td>
+                <td>300$</td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Python</h3>
+        <blockquote cite="https://en.wikipedia.org/wiki/Python_(programming_language)">Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects</blockquote>
+        <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a>
+        <pre>
+            num = 7
+            factorial = 1
+
+            if num < 0:
+            print("Sorry, factorial does not exist for negative numbers")
+            elif num == 0:
+            print("The factorial of 0 is 1")
+            else:
+            for i in range(1,num + 1):
+                factorial = factorial*i
+            print("The factorial of",num,"is",factorial)
+            </pre>
+        <a href="https://www.programiz.com/python-programming/examples/factorial">Source Code</a>
     </body>
 </html>
